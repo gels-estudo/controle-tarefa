@@ -1,0 +1,254 @@
+{
+	"info": {
+		"_postman_id": "c88ec8da-fee7-4c32-bec0-e88d5a45b649",
+		"name": "TODO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Autenticação",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "2801#It@u!@$SecretPass",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "selec@o&t@u",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/oauth/token?grant_type=password&username=admin@gels.com.br&password=selecao@2022!",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"oauth",
+						"token"
+					],
+					"query": [
+						{
+							"key": "grant_type",
+							"value": "password"
+						},
+						{
+							"key": "username",
+							"value": "admin@gels.com.br"
+						},
+						{
+							"key": "password",
+							"value": "selecao@2022!"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Incluir",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "2801#It@u!@$SecretPass",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "selec@o&t@u",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/oauth/token?grant_type=password&username=admin@gels.com.br&password=selecao@2022!",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"oauth",
+						"token"
+					],
+					"query": [
+						{
+							"key": "grant_type",
+							"value": "password"
+						},
+						{
+							"key": "username",
+							"value": "admin@gels.com.br"
+						},
+						{
+							"key": "password",
+							"value": "selecao@2022!"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Alterar",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "2801#It@u!@$SecretPass",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "selec@o&t@u",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/oauth/token?grant_type=password&username=admin@gels.com.br&password=selecao@2022!",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"oauth",
+						"token"
+					],
+					"query": [
+						{
+							"key": "grant_type",
+							"value": "password"
+						},
+						{
+							"key": "username",
+							"value": "admin@gels.com.br"
+						},
+						{
+							"key": "password",
+							"value": "selecao@2022!"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Excluir",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "2801#It@u!@$SecretPass",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "selec@o&t@u",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/oauth/token?grant_type=password&username=admin@gels.com.br&password=selecao@2022!",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"oauth",
+						"token"
+					],
+					"query": [
+						{
+							"key": "grant_type",
+							"value": "password"
+						},
+						{
+							"key": "username",
+							"value": "admin@gels.com.br"
+						},
+						{
+							"key": "password",
+							"value": "selecao@2022!"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "2801#It@u!@$SecretPass",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "selec@o&t@u",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/oauth/token?grant_type=password&username=admin@gels.com.br&password=selecao@2022!",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"oauth",
+						"token"
+					],
+					"query": [
+						{
+							"key": "grant_type",
+							"value": "password"
+						},
+						{
+							"key": "username",
+							"value": "admin@gels.com.br"
+						},
+						{
+							"key": "password",
+							"value": "selecao@2022!"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
